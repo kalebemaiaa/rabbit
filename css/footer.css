@@ -1,0 +1,10 @@
+footer{
+    height: 7vh;
+    background-color: #8E44AD;
+    display: flex;
+    align-items: center;
+}
+
+footer svg{
+    height: 8vh;
+}

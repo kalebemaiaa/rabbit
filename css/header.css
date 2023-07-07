@@ -1,0 +1,25 @@
+header{
+    background-color: #8E44AD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 10vh;
+    box-shadow: 0 10px 100px #7F8C8D;
+}
+
+header nav{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+header nav a{
+    color: #ECF0F1;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 1.3em;
+}
+
+header nav a:hover{
+    cursor: pointer;
+}
