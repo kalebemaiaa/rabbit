@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-
-*{
-    font-family: 'Fira Sans', sans-serif;
+body{
+    width: 100%;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: #E1AEFF;
+    border-bottom: 5px solid #9B59B6;
+    font-family: 'Silkscreen', cursive;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
 }
 
-section{
-    height: 90vh;
-    background-color: #ECF0F1;
-    border-bottom: 5px solid #9B59B6;
+.section h2{
+    font-size: 2em;
 }
