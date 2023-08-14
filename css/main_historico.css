@@ -1,0 +1,13 @@
+.main_historico{
+    display: flex;
+}
+
+#carrossel{
+    width: 100%;
+}
+
+#carrossel::before{
+    display: flex;
+    content: " ";
+    border-bottom: 5px dashed #0f0;
+}
